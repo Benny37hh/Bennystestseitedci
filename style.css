@@ -1,0 +1,112 @@
+header {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgb(15, 128, 0);
+    align-items: center;
+    padding: 20px;
+
+}
+
+header img {
+    width: 400px;
+}
+
+header li {
+    border: 1px solid yellowgreen;
+    padding: 10px;
+
+
+
+
+}
+
+header li:hover {
+    background-color: purple
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+.hero {
+    background-image: url(./hmmm.jpg);
+    background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+
+}
+
+.hero h1 {
+    color: black;
+    font-size: 40px;
+    width: 400px;
+    height: 200px;
+
+
+
+
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: green;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 30px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.921);
+
+}
+
+.card:hover {
+    background-color: green;
+}
+
+main {
+    background-image: url(./vibrant-marijuana-plant-leaves-with-vibrant-green-colors_23-2151299877.avif);
+
+}
+
+.card img {
+    width: 150px;
+}
+
+.tett {
+    width: 400px;
+}
+
+
+div .card ul {
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.img-comp-img img {
+    transition: all 1s;
+}
+
+.img-comp-img img:hover {
+    transform: rotate(360deg)
+}
+
+footer {
+    background-image: url(./vibrant-marijuana-plant-leaves-with-vibrant-green-colors_23-2151299877.avif);
+}
